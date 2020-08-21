@@ -1,0 +1,23 @@
+.header {
+    height: 10vh;
+    background-color: rgb(240, 240, 240);
+    position: fixed;
+    width: 100%;
+    z-index: 12;
+    /* WHEN START SCHROLLING I WANT THE NAV BAR TO DIM */
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav a{
+    padding: 1.5rem 1.5rem 0 1.5rem;
+}
+
+.icon {
+    font-size: 1.5rem;
+    color: black;
+}

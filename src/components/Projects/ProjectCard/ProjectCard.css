@@ -1,0 +1,76 @@
+.card {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    padding-top: 5rem;
+    
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+    background-color: rgb(240, 240, 240);
+    padding-top: 1rem;
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.skills p {
+    /* background-color: gray;
+    border: 1px solid gray; */
+    padding: 0 1rem;
+    font-size: 12px;
+}
+
+.left {
+    padding-left: 20px;
+    width: 100%;
+
+}
+
+.right {
+    padding-right: 30px;
+}
+
+.left a {
+    text-decoration: none;
+    color: rgb(62, 110, 214);
+    font-size: 1.3rem;
+}
+
+.description {
+    font-size: .8rem;
+}
+
+.face {
+    width: 300px;
+    height: auto;
+}
+
+.surf,
+.beer,
+.fika,
+.face {
+    width: 300px;
+    height: auto;
+    background-size: cover;
+}
+
+img {
+    transform: scale(1);
+    transition: all .2s ease-in-out;
+}
+img:hover {
+    transform: scale(1.2);
+}

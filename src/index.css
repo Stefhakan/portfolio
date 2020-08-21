@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Alata';
+  background-color: rgb(241, 241, 241);
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
